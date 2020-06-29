@@ -1,8 +1,8 @@
 <?php
 //パス
-$fpath = './PDF/sample.jpg';
+$fpath = './PDF/sample.csv';
 //ファイル名
-$fname = 'test.csv';
+$fname = 'sample.csv';
 
 header('Content-Type: application/force-download');
 header('Content-Length: '.filesize($fpath));
